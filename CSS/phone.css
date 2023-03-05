@@ -1,0 +1,68 @@
+
+body{
+    text-align: center;
+}
+/* Navbar */
+
+#navbar{
+   flex-direction: column;
+}
+
+#navbar::before{
+    width: 180%;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#h-primary{
+    font-size: 2.2rem;
+}
+
+#h-secondary{
+    font-size: 1.5rem;
+}
+
+#home >p {
+    font-size: 50px;
+}
+
+#home{
+    height: 885px;
+    padding: 3px 20px;
+    flex-direction: column;
+    margin: auto;
+    display: block;
+}
+   
+   
+   #home p{
+       font-size: 13px;
+   }
+   
+   #home::before{
+       height: 975px;
+       width: 180%;
+   }
+
+
+   .sign-up-top{
+       flex-direction: column;
+   }
+
+   #sign-up-section{
+    margin-top: 110px;
+    margin-left: 100px;
+   }
+
+
+
+   .form-p{
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    line-height: 1.2;
+   }
